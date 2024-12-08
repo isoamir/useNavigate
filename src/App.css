@@ -1,0 +1,446 @@
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #374151;
+    
+}
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+
+}
+a.active{
+  color: #ff9500;
+}
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    gap: 260px;
+    background-color: #374151;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+    color: aliceblue;
+    
+}
+li{
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+.main{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    background-color: #374151;
+}
+.img1{
+    width: 150px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #5ad45e;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Roboto", sans-serif;
+    &:hover{
+        background-color: #358038;
+        color: #fff;
+    }
+}
+.img2{
+    width: 600px;
+}
+.h1{
+    font-size: 90px;
+}
+.main2{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 30px;
+
+}
+span{
+    color: #5ad45e;
+}
+.btn{
+    width: 140px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #5ad45e;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Roboto", sans-serif;
+    &:hover{
+        background-color: #358038;
+        color: white;
+    }
+}
+.Navbar{
+    margin-bottom: -100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    gap: 50px;
+}
+img{
+    width: 200px;
+}
+.p{
+    width: 1000px;
+    padding: 20px;
+    height: 800px;
+    background-color: #5ad45e;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.btn2{
+    background-color: antiquewhite;
+    color: rgb(255, 255, 255);
+}
+.text{
+    background-color: #5ad45e;
+    width: 900px;
+    height: 1150px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+
+} 
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px; 
+    background-color: #fff;/* Added width for better centering */
+  }
+  
+  .login-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Include padding and border in width */
+  }
+  
+  .login-container button {
+    background-color: #5ad45e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%; /* Make button full width */
+  }
+  .main1{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .login-container, .signup-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .login-container h1, .signup-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-container label, .signup-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-container input, .signup-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  .login-container button, .signup-container button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .login-container button:hover, .signup-container button:hover {
+    opacity: 0.8;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .text4{
+    color: #fff;
+    font-size: 80px;
+  }
+  .img4{
+    width: 718.57px;
+  }
+  .error{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row-reverse;
+    padding: 120px;
+  }
+  .Amir{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .Login{
+
+    color: white;
+  }
+  .main3 {
+    max-width: 1200px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-left: 800px;
+    color: #000000;
+  }
+  .Meno {
+    width: 350px;
+    height: 1003px;
+    border: 1px solid rgb(136, 136, 136);
+    display: flex;
+    align-items: end;
+    text-align: end;
+    flex-direction: column;
+    padding: 18px;
+    gap: 15px;
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #d0e112;
+  }
+  .wallet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 220px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+  }
+  .svg1 {
+    width: 20px;
+    height: 20px;
+  }
+  span {
+    color: rgb(31, 191, 250);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .svg2 {
+    width: 30px;
+    height: 30px;
+  }
+  .wallet1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 130px;
+    text-align: center;
+    color: #000000;
+  }
+  .wallet2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 170px;
+    text-align: center;
+    color: #000000;
+  }
+  .btns {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: 400;
+    font-size: 5px;
+    color: #000000;
+  }
+  hr {
+    width: 320px;
+  }
+  .ntb1 {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    gap: 15px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+    color: #000000;
+  }
+
+  .cc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    flex-direction: row-reverse;
+  }
+  .cc {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .asas {
+    display: flex;
+  }
+  .main4 {
+    margin-top: -820px;
+    margin-right: 500px;
+    display: flex;
+    align-items: center;
+  }
+  .img10 {
+    border: 1px solid rgb(136, 136, 136);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 1300px;
+    margin-top: -1135px;
+  }
+  .a.active {
+    color: red;
+  }
+  .img12 {
+    border: 1px solid rgb(136, 136, 136);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: -300px;
+    margin-left: 250px;
+  }
+  .img13 {
+    border: 1px solid rgb(136, 136, 136);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: -300px;
+    margin-left: 250px;
+  }
+  .img14 {
+    border: 1px solid rgb(136, 136, 136);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: -300px;
+    margin-left: 250px;
+  }
+  .img15 {
+    border: 1px solid rgb(136, 136, 136);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: -300px;
+    margin-left: 250px;
+  }
+  .img11 {
+    border: 1px solid rgb(136, 136, 136);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 1300px;
+    margin-top: -1110px;
+  }
+  .img16 {
+    border: 1px solid rgb(136, 136, 136);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 1300px;
+    margin-top: -950px;
+  }
+  .aaaaa {
+    width: 500px;
+    margin-right: 900px;
+  }
+  .sssss {
+    margin-right: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  .dddd {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -800px;
+    margin-right: 2100px;
+    margin-left: 100px;
+    border: 1px solid rgb(136, 136, 136);
+    border-radius: 10px;
+    padding: 10px;
+    width: 1000px;
+    height: 600px;
+    gap: 20px;
+    text-align: center;
+    justify-content: start;
+  }
